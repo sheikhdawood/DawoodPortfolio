@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Menu, X, Github, Linkedin, Globe } from 'lucide-react'
 import { profile } from '../data/content'
+import logo from '../assets/logo.png';
 
 
 const nav = [
@@ -29,7 +30,10 @@ return () => window.removeEventListener('scroll', onScroll)
 return (
 <header className={`fixed top-0 inset-x-0 z-50 transition ${scrolled ? 'backdrop-blur bg-bg/70 ring-1 ring-white/10' : ''}`}>
 <div className="max-w-6xl mx-auto flex items-center justify-between px-5 md:px-8 py-4">
-<a href="#top" className="font-bold tracking-tight">{profile.name}<span className="text-brand-500">.</span></a>
+<a href="#top" className="flex items-center gap-2 font-bold tracking-tight">
+  <img src={logo} alt="Logo" className="h-10 w-auto" />
+  {profile.name}<span className="text-brand-500">.</span>
+</a>
 <nav className="hidden md:flex items-center gap-6">
 {nav.map(n => (
 <a key={n.href} href={n.href} className="text-white/80 hover:text-white">{n.label}</a>
