@@ -9,7 +9,7 @@ socials: {
 github: 'https://github.com/sheikhdawood',
 linkedin: 'https://linkedin.com/in/dawood-ayoob-sheikh',
 twitter: 'https://x.com/yourhandle',
-website: 'https://yourdomain.com'
+website: 'https://dawoodayoobshiekh.netlify.app'
 },
 heroCTAs: [
   { label: 'Download CV', href: '/cv.pdf', target: '_blank', rel: 'noopener noreferrer' },
@@ -20,11 +20,15 @@ heroCTAs: [
 export const skills = [
 {
 group: 'AI/ML',
-items: ['Python', 'PyTorch', 'TensorFlow', 'Transformers', 'RAG', 'LangChain', 'LLMOps']
+items: ['Python', 'PyTorch', 'TensorFlow', 'Transformers', 'RAG', 'LangChain', 'LLMOps', 'HuggingFace', 'AgenticAI']
 },
 {
 group: 'Backend',
-items: ['FastAPI', 'Node.js', 'MongoDB', 'PostgreSQL', 'Redis', 'Docker', 'Kubernetes']
+items: ['FastAPI', 'MongoDB', 'Docker', 'Kubernetes', 'AWS']
+},
+{
+group: 'Technologies',
+items: ['Streamlit', 'FAISS', 'OpenCV', 'Jupyter']
 }
 ]
 
