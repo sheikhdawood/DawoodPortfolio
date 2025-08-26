@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Menu, X, Github, Linkedin, Globe } from 'lucide-react'
+import { Menu, X, Github, Linkedin, Globe, Twitter } from 'lucide-react'
 import { profile } from '../data/content'
 
 const nav = [
@@ -61,6 +61,13 @@ export function Navbar() {
             <Linkedin size={18} />
           </a>
           <a
+            aria-label="Twitter"
+            href={profile.socials.twitter}
+            className="text-white/70 hover:text-white"
+          >
+            <Twitter size={20} />
+          </a>
+          <a
             aria-label="Website"
             href={profile.socials.website}
             className="text-white/70 hover:text-white"
@@ -109,6 +116,13 @@ export function Navbar() {
                 className="text-white/70 hover:text-white"
               >
                 <Linkedin size={20} />
+              </a>
+              <a
+                aria-label="Twitter"
+                href={profile.socials.twitter}
+                className="text-white/70 hover:text-white"
+              >
+                <Twitter size={20} />
               </a>
               <a
                 aria-label="Website"

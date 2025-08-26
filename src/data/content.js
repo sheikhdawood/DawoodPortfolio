@@ -8,7 +8,7 @@ email: 'sdawood329663@gmail.com',
 socials: {
 github: 'https://github.com/sheikhdawood',
 linkedin: 'https://linkedin.com/in/dawood-ayoob-sheikh',
-twitter: 'https://x.com/yourhandle',
+twitter: 'https://x.com/_sheikhdawood',
 website: 'https://dawoodayoobshiekh.netlify.app'
 },
 heroCTAs: [
